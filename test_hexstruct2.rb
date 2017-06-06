@@ -1,5 +1,5 @@
 require 'test/unit'
-require 'hexstruct2'
+require './hexstruct2'
 
 FixedSizeFrame = HexStruct2.define {
   fixed_size_field :MsgCode, 2
